@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" size="32x32">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>stat-preview-page</title>
+  </head>
+  <body class="bg-darkGray max-w-7xl mx-auto">
+    <!-- GLOBAL CONTAINTER -->
+     <div class="flex flex-col px-8 py-20 lg:flex-row-reverse sm-md:px-14 lg:py-44 lg:px-16 lg:mx-5 xl:px-20 xl:mx-2">
+      <!-- HERO IMAGE -->
+      <div class="flex mx-auto z-10 lg:mx-0 md:mt-4 lg:mt-0">
+        <!-- HERO IMAGE SMALL -->
+         <div class="relative max-w-xl">
+         <img src="images/image-header-mobile.jpg" alt=""  class="rounded-t-lg lg:hidden">
+         <img src="images/image-header-desktop.jpg" alt="" class="hidden lg:block  lg:rounded-r-xl xl:rounded-r-2xl lg:rounded-t-none">
+         <!-- shadow -->
+         <div class="rounded-t-lg absolute inset-0 bg-purple opacity-80 mix-blend-multiply lg:rounded-t-none  lg:rounded-r-xl xl:rounded-r-2xl"></div>
+         </div>
+      </div>
+       <!-- CONTENT CONTAINER -->
+          <div class="flex flex-col flex-grow mx-auto bg-darkBlue max-w-xl rounded-b-lg lg:rounded-b-none lg:rounded-l-xl lg:pt-16 lg:pl-20 lg:pr-4 lg:mx-0 xl:px-0 xl:rounded-l-2xl">
+            <!-- HEADER -->
+             <div class="flex flex-col justify-center pt-10  md:mx-8 lg:mx-0 lg:pt-0 xl:pl-16">
+              <h1 class="lg:hidden text-3xl text-white font-bold font-inter text-center ">Get 
+                <span class="text-purple">insights </span> that <span class="inline-block"> help your business</span> grow.</h1>
+                <!-- header for large screen -->
+                <h1 class="hidden lg:block text-3xl text-white font-bold font-inter text-left xl:text-4xl"> 
+                Get <span class="text-purple">insights</span> that help<br>your business grow.
+                </h1>
+                <!-- CONTENT TEXT -->
+                 <!-- content mobile -->
+                  <p class="mt-4 px-8 text-sm font-inter font-normal text-white text-center lg:text-left lg:hidden opacity-75">Discover the benefits of data analytics and makebetter decisions <br>regarding revenue, customer <br>experience, and overall efficiency.</p>
+                  <!-- content large screen -->
+                <p class="hidden mt-4 text-sm font-inter font-normal text-white lg:flex text-left xl:hidden opacity-75">Discover the benefits of data analytics and make <br>better decisions </span>regarding revenue, customer <br>experience, and overall efficiency.</p>
+                <!-- content text desktop -->
+                 <p class="mt-6 text-lg font-inter font-normal text-white text-left hidden xl:flex opacity-75 ">Discover the benefits of data analytics and make <br>better decisions regarding revenue, customer <br>experience, and overall efficiency.</p>
+             </div>
+
+             <!-- VIEWS SECTION -->
+           <div class="flex flex-col gap-6 mt-10 mx-auto lg:flex-row pb-8 lg:pt-4 lg:pb-4 lg:mx-0 xl:pl-16 xl:pt-8 lg:gap-12 xl:gap-24">
+            <p class="flex flex-col text-3xl text-white font-bold font-inter text-center lg:text-left">10k+
+              <a class="mt-0.5 text-xs font-light font-lexend-deca text-white uppercase opacity-60 tracking-widest">companies</a>
+            </p>
+            <p class="flex flex-col text-3xl text-white font-bold font-inter text-center lg:text-left">314
+              <a class="mt-0.5 text-xs font-light font-lexend-deca text-white uppercase opacity-60 tracking-widest">templates</a>
+            </p>
+            <p class="flex flex-col text-3xl text-white font-bold font-inter text-center lg:text-left">12M+
+              <a class="mt-0.5 text-xs font-light font-lexend-deca text-white uppercase opacity-60 tracking-widest">queries</a>
+            </p>
+           </div>
+          </div>
+     </div>
+  </body>
+</html>
