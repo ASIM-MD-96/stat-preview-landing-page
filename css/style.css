@@ -899,6 +899,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .xl\:items-center {
+    align-items: center;
+  }
+
   .xl\:gap-28 {
     gap: 7rem;
   }
